@@ -48,7 +48,7 @@ public class Modelo {
             {0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
             };
         Figuras.addFigure(figura2, mapBack, new Points(2,10), false);
-        Figuras.addFigure(figura2, mapBack, new Points(150,150), true);
+        //Figuras.addFigure(figura2, mapBack, new Points(150,150), true);
 
        //#endregion
        

@@ -7,6 +7,7 @@ import javax.swing.JFrame;
 import javax.swing.WindowConstants;
 import javax.swing.SwingUtilities;
 
+import conwaygame.game.Controller;
 import conwaygame.game.Game;
 
 public class App {
@@ -23,6 +24,6 @@ public class App {
         frame.add(game);
         frame.pack();
         frame.setVisible(true);
-        game.start();
+        game.start(new Controller(game));
     }
 }
